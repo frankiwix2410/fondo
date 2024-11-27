@@ -1,0 +1,45 @@
+*{
+    margin:  0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    font-family:  'Tahoma', Geneva, Verdana, sans-serif;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 150px;
+}
+
+.contenedor{
+    background-color: lightgray;
+    gap: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.416);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover{
+    background-color: rgb(50, 50, 255);
+}
